@@ -1,5 +1,5 @@
 # Sum of Divisibles
-- 👋 Hi, hope you have a fantastic day, we are @wizardogrammer
+- 👋 Hi, we are @wizardogrammer, what a fantastic day!
 
 In this tutorial we show how you check a list if it contains numbers divisble by 5 and not by 7? Then print the summation of them.
 
