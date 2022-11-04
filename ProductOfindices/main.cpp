@@ -3,7 +3,7 @@
 void ProductOfIndices(const long* vec, int &N){ 
 	long multiplication = 1;
 	for(int i = 0; i < N; i++){
-		multiplication =* vec[i];
+		multiplication *= vec[i];
 		std::cout << multiplication <<",";
 	}
 }
