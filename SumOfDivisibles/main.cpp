@@ -39,4 +39,6 @@ int main() {
 
   //    Process the list and sum the values which are divisible by 5
   sumDivisibles(numbers, n);
+
+  return 0;
 }
