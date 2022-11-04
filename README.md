@@ -1,2 +1,3 @@
 # LazyCPP
-The purpose is to practice Standard Library(STL)
+- 👋 Hi, we are @wizardogrammer, what a fantastic day!
+The purpose of this repository is to practice C++ Standard Library(STL)
