@@ -30,4 +30,5 @@ int main() {
     std::cin >> n[i];
   }
   printvec(real(n));
+  return 0;
 }
