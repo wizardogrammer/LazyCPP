@@ -24,4 +24,5 @@ int main() {
   }
 
   std::cout << "Final solution = " << sumPositive(real) << std::endl;
+  return 0;
 }
