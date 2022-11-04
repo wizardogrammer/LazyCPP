@@ -3,17 +3,17 @@
 
 In this tutorial we show how you check a list if it contains numbers divisble by 5 and not by 7? Then print the summation of them.
 
-`Input`: Enter your desired size of the list.
+`Input:` Enter your desired size of the list.
 
-`Second Input`: Enter the integer elements you want in the list one by one and then hit Enter.
+`Second Input:` Enter the integer elements you want in the list one by one and then hit Enter.
 
-`Output`: The summation of numbers divisible by 5 and not by 7.
+`Output:` The summation of numbers divisible by 5 and not by 7.
 
 ## Example
 
-`Input`: 5
+`Input:` 5
 
-`Second Input`: 
+`Second Input:` 
 
                 12
 
@@ -25,4 +25,4 @@ In this tutorial we show how you check a list if it contains numbers divisble by
 
                 70
 
-`Output`: 15 + 60 = 75
+`Output:` 15 + 60 = 75
