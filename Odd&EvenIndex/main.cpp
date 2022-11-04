@@ -1,32 +1,33 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
-vector<int> real(vector<int> n){
-	vector<int> res;
-	for(int i = 0; i < n.size()-1; i+=2){
-		res.push_back(n[i]);
-	}
-	for (int j = 1; j < n.size() ; j+=2){
-		res.push_back(n[j]);
-	}
+std::vector<int> real(const std::vector<int>& n) {
+  std::vector<int> odd{}, even{};
 
-	return res;
+  for (const int& num : n)
+    (num % 2 == 0) ? even.push_back(num) : odd.push_back(num);
+
+  std::vector<int> result(odd);
+  result.insert(std::end(result), std::begin(even), std::end(even));
+
+  return result;
 }
 
-void printvec (vector<int> a){
-	for(int i = 0 ; i < a.size(); i++){
-		cout << a[i] << ",";
-	}
+void printvec(const std::vector<int>& a) {
+  char comma[3]{'\0', ' ', '\0'};
+  for (const int& num : a) {
+    std::cout << comma << num;
+    comma[0] = ',';
+  }
+  std::cout << std::endl;
 }
 
-int main(){
-	int elm;
-	vector<int> n;
-	for (int i = 1; i <= 20; i++){
-		cout << "Enter " << i <<" element: ";
-		cin >> elm;
-		n.push_back(elm);
-	}
-	printvec(real(n));
+int main() {
+  std::vector<int> n(20);
+  for (int i{}; i < n.size(); i++) {
+    std::cout << "Enter "
+              << "element " << i + 1 << " : ";
+    std::cin >> n[i];
+  }
+  printvec(real(n));
 }
