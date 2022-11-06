@@ -7,3 +7,9 @@ This program gets a vector in range 20 and arranges them to first odd indices th
 
 `Output:` The same list with odd numbers first.
 
+
+## Example
+
+`Input:` [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+`Output:` [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
