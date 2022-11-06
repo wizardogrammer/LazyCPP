@@ -4,7 +4,7 @@
 bool isInArea(float x, float y) {
   bool is_in_square{x < 1 and x > 0 and y < 1 and y > 0};
   bool is_in_shaded{(y > -0.5 * x + 0.5) and (y < -0.5 * x + 1)};
-  return (is_in_square and is_in_shaded) ? true : false;
+  return is_in_square and is_in_shaded;
 }
 
 int main() {
