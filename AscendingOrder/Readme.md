@@ -1,7 +1,7 @@
 # Ascending Order
 - 👋 Hi, we are @wizardogrammer, what a fantastic day!
 
-This program gets a vector in a given range and arranges them to the ascending order.
+This program gets a vector in a given range and rearranges to its ascending order.
 
 ## Example
 
