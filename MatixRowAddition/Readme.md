@@ -1,7 +1,7 @@
 # Ascending Order
 - 👋 Hi, we are @wizardogrammer, what a fantastic day!
 
-This program gets a 2 dimension matrix with given row and column and adds the elements the each row and push them to a new vector :-)
+This program gets a 2 dimension matrix with given row and column and adds the values of each row and push them to a new vector :-)
 
 ## Example
 
