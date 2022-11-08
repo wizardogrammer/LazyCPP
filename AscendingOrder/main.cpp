@@ -2,14 +2,14 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int>& ascendingOrder(std::vector<int>& arr) {
+std::vector<int> &ascendingOrder(std::vector<int> &arr) {
   std::sort(arr.begin(), arr.end());
   return arr;
 }
 
-void printVec(const std::vector<int>& a) {
+void printVec(const std::vector<int> &a) {
   char comma[3]{'\0', ' ', '\0'};
-  for (const int& num : a) {
+  for (const int &num : a) {
     std::cout << comma << num;
     comma[0] = ',';
   }
