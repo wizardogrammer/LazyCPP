@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 
-int sumPositive(const std::vector<int>& arr) {
+int sumPositive(const std::vector<int> &arr) {
   int result{};
-  for (const int& num : arr)
+  for (const int &num : arr)
     if (num > 0) result += num;
   return result;
 }
