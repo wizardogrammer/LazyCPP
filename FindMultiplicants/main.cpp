@@ -1,16 +1,16 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> findMultiplicants(int P, const std::vector<int>& ARR) {
+std::vector<int> findMultiplicants(int P, const std::vector<int> &ARR) {
   std::vector<int> result{};
   for (int element : ARR)
     if (element % P == 0) result.push_back(element);
   return result;
 }
 
-void PrintResult(const std::vector<int>& n) {
+void PrintResult(const std::vector<int> &n) {
   char comma[3]{'\0', ' ', '\0'};
-  for (const int& num : n) {
+  for (const int &num : n) {
     std::cout << comma << num;
     comma[0] = ',';
   }
