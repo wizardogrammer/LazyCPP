@@ -1,6 +1,6 @@
 #include <iostream>
 
-void ProductOfIndices(const long* vec, int& N) {
+void ProductOfIndices(const long *vec, int &N) {
   long multiplication{1};
   char comma[3]{'\0', ' ', '\0'};
 
@@ -18,7 +18,7 @@ int main() {
   std::cin >> n;
 
   // Allocate memory for dynamic array `arr` in heap.
-  long* arr = new long(n);
+  long *arr = new long(n);
   for (int i{}; i < n; i++) {
     std::cout << " enter a number b(" << i + 1 << "): ";
     std::cin >> arr[i];
