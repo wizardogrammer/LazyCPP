@@ -3,7 +3,7 @@
 #include <vector>
 
 // square of integers in a list function
-std::vector<int> squareOfNumber(const std::vector<int>& Arr) {
+std::vector<int> squareOfNumber(const std::vector<int> &Arr) {
   std::vector<int> result(Arr.size());
 
   for (int i = 0; i < Arr.size(); i++) result[i] = std::pow(Arr[i], 2);
@@ -12,9 +12,9 @@ std::vector<int> squareOfNumber(const std::vector<int>& Arr) {
 }
 
 // print a list function
-void printvec(const std::vector<int>& a) {
+void printvec(const std::vector<int> &a) {
   char comma[3]{'\0', ' ', '\0'};
-  for (const int& num : a) {
+  for (const int &num : a) {
     std::cout << comma << num;
     comma[0] = ',';
   }
