@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++17 CMakeFiles/Parking.dir/src/main.cpp.o CMakeFiles/Parking.dir/src/menu.cpp.o CMakeFiles/Parking.dir/src/parking.cpp.o CMakeFiles/Parking.dir/src/vehicle.cpp.o -o Parking 
